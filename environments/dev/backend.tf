@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "grocery-outlet-349208-tfstate"
+    bucket = "rajat-outlet-349208-tfstate"
     prefix = "env/dev"
   }
 }
